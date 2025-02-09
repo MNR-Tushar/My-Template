@@ -4,11 +4,11 @@ Extensions:
 1. C/C++ Extensions pack
 2. Code Runner
 3. FontSize:
-       - "window.zoomLevel": 0.5
-       - "editor.fontSize": 14
+       "window.zoomLevel": 0.3,
+       "editor.fontSize": 14,
 
 4. Code-runner: Executor Map:
-      "cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 
 5. Auto Close Tag
 6. Auto Rename Tag
